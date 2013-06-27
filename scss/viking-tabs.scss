@@ -1,0 +1,9 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+@import "compass";
+@import "settings";
+
+// Import Foundation tabs & our custom global file
+@import "global";
+@import "foundation/components/section"; 
