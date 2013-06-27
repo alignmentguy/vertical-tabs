@@ -662,7 +662,7 @@ a:focus {
   /* line 43, ../scss/viking-tabs.scss */
   .section-container.vertical-tabs section.active > .title, .section-container.vertical-tabs .section.active > .title {
     background-color: transparent;
-    background-image: url("../images/tab-arrow.png");
+    background-image: url("../images/viking-arrow-tab.png");
     background-position: right 50%;
     background-repeat: no-repeat;
   }
