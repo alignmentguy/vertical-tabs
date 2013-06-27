@@ -4,6 +4,73 @@
 @import "compass";
 @import "settings";
 
+// Local variable overrides
+$section-vertical-tabs-title-width: emCalc(225px);
+$section-border-size: 0;
+
 // Import Foundation tabs & our custom global file
 @import "global";
 @import "foundation/components/section"; 
+
+$content-padding: $section-content-padding;
+$vikingRed: #ea2e22;
+$vikingRedDark: #b15454;
+
+$arrow-width: 20px;
+
+
+// Media Queries
+@media #{$small} {
+	.section-container {
+
+		&.vertical-tabs {
+
+			section, .section {
+
+				& > .title {
+
+					background-color: transparent;
+
+					&:hover {
+						background-color: transparent;
+					}
+
+				}
+
+				&.active {
+
+					// Active Section Title
+					& > .title {
+						background-color: transparent;
+
+						//@include background-image(linear-gradient($vikingRed, $vikingRedDark));
+						background-image: url('../images/tab-arrow.png');
+						background-position: right 50%;
+						background-repeat: no-repeat;
+
+						// @include box-shadow(1px 1px 3px rgba(0,0,0,0.38));
+
+
+						a {
+							color: #FFF;
+						}
+
+						&:after {
+							//@include content("Hello");
+						}
+
+
+					}
+				}
+
+
+				// Content pane on larger devices
+				.content {
+					margin-left: -20px;
+					padding-left: ($content-padding*2);
+
+				}
+			}
+		}
+	}
+}

@@ -19,7 +19,7 @@ a:focus {
   width: 100%;
   display: block;
   margin-bottom: 1.25em;
-  border: 1px solid #cccccc;
+  border: 0 solid #cccccc;
   border-top: none;
 }
 /* line 277, ../scss/foundation/components/_section.scss */
@@ -79,7 +79,7 @@ a:focus {
   top: 0;
   width: 100%;
   margin: 0;
-  border-top: solid 1px #cccccc;
+  border-top: solid 0 #cccccc;
 }
 /* line 130, ../scss/foundation/components/_section.scss */
 .section-container > section > .title a, .section-container > .section > .title a, .section-container.auto > section > .title a, .section-container.auto > .section > .title a {
@@ -147,7 +147,7 @@ a:focus {
 /* line 139, ../scss/foundation/components/_section.scss */
 .section-container.tabs > section > .title, .section-container.tabs > .section > .title {
   width: auto;
-  border: solid 1px #cccccc;
+  border: solid 0 #cccccc;
   border-right: 0;
   border-bottom: 0;
   position: absolute;
@@ -160,11 +160,11 @@ a:focus {
 }
 /* line 150, ../scss/foundation/components/_section.scss */
 .section-container.tabs > section:last-child .title, .section-container.tabs > .section:last-child .title {
-  border-right: solid 1px #cccccc;
+  border-right: solid 0 #cccccc;
 }
 /* line 152, ../scss/foundation/components/_section.scss */
 .section-container.tabs > section .content, .section-container.tabs > .section .content {
-  border: solid 1px #cccccc;
+  border: solid 0 #cccccc;
   position: absolute;
   z-index: 10;
   display: none;
@@ -243,7 +243,7 @@ a:focus {
   /* line 139, ../scss/foundation/components/_section.scss */
   .section-container.auto > section > .title, .section-container.auto > .section > .title {
     width: auto;
-    border: solid 1px #cccccc;
+    border: solid 0 #cccccc;
     border-right: 0;
     border-bottom: 0;
     position: absolute;
@@ -256,11 +256,11 @@ a:focus {
   }
   /* line 150, ../scss/foundation/components/_section.scss */
   .section-container.auto > section:last-child .title, .section-container.auto > .section:last-child .title {
-    border-right: solid 1px #cccccc;
+    border-right: solid 0 #cccccc;
   }
   /* line 152, ../scss/foundation/components/_section.scss */
   .section-container.auto > section .content, .section-container.auto > .section .content {
-    border: solid 1px #cccccc;
+    border: solid 0 #cccccc;
     position: absolute;
     z-index: 10;
     display: none;
@@ -284,7 +284,7 @@ a:focus {
 
   /* line 299, ../scss/foundation/components/_section.scss */
   .section-container.vertical-tabs {
-    border: 1px solid #cccccc;
+    border: 0 solid #cccccc;
     position: relative;
   }
   /* line 303, ../scss/foundation/components/_section.scss */
@@ -356,8 +356,8 @@ a:focus {
   .section-container.vertical-tabs section > .title,
   .section-container.vertical-tabs .section > .title {
     position: absolute;
-    border-top: solid 1px #cccccc;
-    width: 12.5em;
+    border-top: solid 0 #cccccc;
+    width: 14.0625em;
   }
   /* line 181, ../scss/foundation/components/_section.scss */
   .section-container.vertical-tabs section:first-child .title,
@@ -369,15 +369,15 @@ a:focus {
   .section-container.vertical-tabs .section .content {
     display: block;
     position: relative;
-    left: 12.5em;
-    border-left: solid 1px #cccccc;
+    left: 14.0625em;
+    border-left: solid 0 #cccccc;
     z-index: 10;
   }
   /* line 194, ../scss/foundation/components/_section.scss */
   .section-container.vertical-tabs section.active > .title,
   .section-container.vertical-tabs .section.active > .title {
     background-color: #d5d5d5;
-    width: 12.5625em;
+    width: 14.125em;
     border-right: solid 0 transparent;
     z-index: 11;
   }
@@ -448,7 +448,7 @@ a:focus {
   /* line 209, ../scss/foundation/components/_section.scss */
   .section-container.vertical-nav > section > .title, .section-container.vertical-nav > .section > .title {
     border-top: none;
-    border: solid 1px #cccccc;
+    border: solid 0 #cccccc;
   }
   /* line 213, ../scss/foundation/components/_section.scss */
   .section-container.vertical-nav > section > .title a, .section-container.vertical-nav > .section > .title a {
@@ -471,14 +471,14 @@ a:focus {
     top: 0px;
     z-index: 999;
     min-width: 12.5em;
-    border: solid 1px #cccccc;
+    border: solid 0 #cccccc;
   }
 
   /* line 313, ../scss/foundation/components/_section.scss */
   .section-container.horizontal-nav {
     position: relative;
     background: #efefef;
-    border: 1px solid #cccccc;
+    border: 0 solid #cccccc;
   }
   /* line 317, ../scss/foundation/components/_section.scss */
   .section-container.horizontal-nav > section, .section-container.horizontal-nav > .section {
@@ -537,7 +537,7 @@ a:focus {
   /* line 240, ../scss/foundation/components/_section.scss */
   .section-container.horizontal-nav > section > .title, .section-container.horizontal-nav > .section > .title {
     width: auto;
-    border: solid 1px #cccccc;
+    border: solid 0 #cccccc;
     border-left: 0;
     top: -1px;
     position: absolute;
@@ -559,7 +559,7 @@ a:focus {
     left: 0;
     top: -2px;
     min-width: 12.5em;
-    border: solid 1px #cccccc;
+    border: solid 0 #cccccc;
   }
 }
 /* line 328, ../scss/foundation/components/_section.scss */
@@ -567,7 +567,7 @@ a:focus {
   width: 100%;
   display: block;
   margin-bottom: 1.25em;
-  border: 1px solid #cccccc;
+  border: 0 solid #cccccc;
   border-top: none;
 }
 /* line 332, ../scss/foundation/components/_section.scss */
@@ -627,7 +627,7 @@ a:focus {
   top: 0;
   width: 100%;
   margin: 0;
-  border-top: solid 1px #cccccc;
+  border-top: solid 0 #cccccc;
 }
 /* line 130, ../scss/foundation/components/_section.scss */
 .no-js .section-container.auto > section > .title a, .no-js .section-container.auto > .section > .title a, .no-js .section-container.accordion > section > .title a, .no-js .section-container.accordion > .section > .title a, .no-js .section-container.tabs > section > .title a, .no-js .section-container.tabs > .section > .title a, .no-js .section-container.vertical-tabs > section > .title a, .no-js .section-container.vertical-tabs > .section > .title a, .no-js .section-container.vertical-nav > section > .title a, .no-js .section-container.vertical-nav > .section > .title a, .no-js .section-container.horizontal-nav > section > .title a, .no-js .section-container.horizontal-nav > .section > .title a {
@@ -648,4 +648,31 @@ a:focus {
   border-left: 0;
   border-right: 0;
   border-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 30, ../scss/viking-tabs.scss */
+  .section-container.vertical-tabs section > .title, .section-container.vertical-tabs .section > .title {
+    background-color: transparent;
+  }
+  /* line 34, ../scss/viking-tabs.scss */
+  .section-container.vertical-tabs section > .title:hover, .section-container.vertical-tabs .section > .title:hover {
+    background-color: transparent;
+  }
+  /* line 43, ../scss/viking-tabs.scss */
+  .section-container.vertical-tabs section.active > .title, .section-container.vertical-tabs .section.active > .title {
+    background-color: transparent;
+    background-image: url("../images/tab-arrow.png");
+    background-position: right 50%;
+    background-repeat: no-repeat;
+  }
+  /* line 54, ../scss/viking-tabs.scss */
+  .section-container.vertical-tabs section.active > .title a, .section-container.vertical-tabs .section.active > .title a {
+    color: #FFF;
+  }
+  /* line 68, ../scss/viking-tabs.scss */
+  .section-container.vertical-tabs section .content, .section-container.vertical-tabs .section .content {
+    margin-left: -20px;
+    padding-left: 1.875em;
+  }
 }
