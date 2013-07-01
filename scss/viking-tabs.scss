@@ -15,60 +15,104 @@ $section-border-size: 0;
 $content-padding: $section-content-padding;
 $vikingRed: #ea2e22;
 $vikingRedDark: #b15454;
+$vikingGray: #C2C2C2;
 
 $arrow-width: 20px;
 
 
-// Media Queries
-@media #{$small} {
-	.section-container {
+section#innerbottom {
+	margin-right: 20px;
+}
+#system {
 
+	.section-container {
 		&.vertical-tabs {
 
 			section, .section {
 
 				& > .title {
+					padding: 0;
+					height: auto;
+					border: 0 none;
+					background-color: $vikingGray;
 
-					background-color: transparent;
-
-					&:hover {
-						background-color: transparent;
+					a, a:hover {
+						border: none;
 					}
-
 				}
 
 				&.active {
 
-					// Active Section Title
 					& > .title {
 						background-color: transparent;
-
-						//@include background-image(linear-gradient($vikingRed, $vikingRedDark));
-						background-image: url('../images/viking-arrow-tab.png');
-						background-position: right 50%;
+						background-image: url('viking-arrow-tab.png');
 						background-repeat: no-repeat;
-
-						// @include box-shadow(1px 1px 3px rgba(0,0,0,0.38));
-
+						background-position: 0 50%;
 
 						a {
 							color: #FFF;
 						}
-
-						&:after {
-							//@include content("Hello");
-						}
-
-
 					}
 				}
 
-
-				// Content pane on larger devices
 				.content {
-					margin-left: -20px;
-					padding-left: ($content-padding*2);
+					background-color: transparent;
+				}
+			}
+		}
+	}
+}
 
+
+// Media Queries
+@media #{$small} {
+
+	#system {
+		.section-container { 
+
+			&.vertical-tabs {
+
+				section, .section {
+
+					& > .title {
+
+						//background-color: transparent;
+
+						&:hover {
+							//background-color: transparent;
+						}
+
+					}
+
+					&.active {
+
+						// Active Section Title
+						& > .title {
+							background-color: transparent;
+							padding-right: 13px;
+
+							//@include background-image(linear-gradient($vikingRed, $vikingRedDark));
+							background-position: right 50%;
+
+							// @include box-shadow(1px 1px 3px rgba(0,0,0,0.38));
+
+
+
+							&:after {
+								//@include content("Hello");
+							}
+
+
+						}
+					}
+
+
+					// Content pane on larger devices
+					.content {
+						margin-left: -20px;
+						padding-left: 50px;
+
+					}
 				}
 			}
 		}

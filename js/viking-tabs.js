@@ -875,7 +875,7 @@ if (typeof jQuery === "undefined" &&
 	$(document).ready(function() {
 
 	
-	}).foundation('section', {deep_linking: true}, function (response) {
+	}).foundation('section', {deep_linking: false}, function (response) {
   		console.log(response.errors);
 	});
 
